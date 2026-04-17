@@ -14,6 +14,7 @@ import logging
 from opentelemetry.instrumentation.openai_v2 import OpenAIInstrumentor
 
 # Azure & OpenAI Imports
+# Azure AI Projects client for agent execution and management
 from azure.ai.projects import AIProjectClient
 from azure.identity import DefaultAzureCredential
 from openai import AzureOpenAI

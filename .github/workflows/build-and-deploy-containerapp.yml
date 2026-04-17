@@ -1,9 +1,9 @@
-# Required GitHub Secrets:
+# Required GitHub Secrets :
 #   AZURE_CONTAINER_REGISTRY        - ACR login server (e.g. myregistry.azurecr.io)
 #   AZURE_CONTAINER_REGISTRY_USERNAME - ACR admin username
 #   AZURE_CONTAINER_REGISTRY_PASSWORD - ACR admin password
 #   AZURE_CREDENTIALS               - Azure service principal JSON (az ad sp create-for-rbac output)
-#   AZURE_RESOURCE_GROUP            - Resource group containing the Container App
+#   AZURE_RESOURCE_GROUP            - Resource group containing the Container App env
 #   AZURE_CONTAINER_APP_NAME        - Name of the Azure Container App
 #   FOUNDRY_ENDPOINT                - Azure AI Foundry endpoint
 #   gpt_endpoint                    - GPT model endpoint

@@ -150,7 +150,7 @@ class AgentFrameworkProductManagementAgent:
         )
 
 
-        # Define the main ProductManagerAgent to delegate tasks to the appropriate agents
+        # Define the main ProductManagerAgent to delegate tasks to appropriate agents 
         self.agent = Agent(
             client=chat_service,
             name='ProductManagerAgent',
